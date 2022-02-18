@@ -18,7 +18,7 @@ class Tendril
   }
   public void show()
   {
-    if(myNumSegments >= 30){
+    if(myNumSegments >= 10){
       stroke(139,69,19);
     }else {
       stroke(255,182,193);
@@ -34,7 +34,7 @@ class Tendril
       startY = endY;
     }
     if(myNumSegments > 10){
-      Cluster C = new Cluster(myNumSegments/3, startX, startY);
+      Cluster C = new Cluster(myNumSegments/4, startX, startY);
   }
 }
 }
